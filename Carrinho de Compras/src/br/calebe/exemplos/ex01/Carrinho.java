@@ -30,6 +30,14 @@ public class Carrinho {
 		return menor;
 	}
         
+        public List<String> ListaTodosProdutos(){
+            List<String> IsWe = new ArrayList<String>();
+            for (Produto produto : produtos) {
+              IsWe.add(produto.getNome());
+            }
+            return IsWe;
+        }
+        
         public double CalculaTotal() throws CarrinhoVazioExpected {
                 double soma;
                 soma = 0.0;
