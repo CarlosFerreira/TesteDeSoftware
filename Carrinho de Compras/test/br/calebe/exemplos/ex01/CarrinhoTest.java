@@ -65,6 +65,7 @@ public class CarrinhoTest {
 		for(String Nome : IsWeInTheTape){
                     assertTrue(IsWeInTheDVD.contains(Nome));
                 }
+                //teste
         }
         
         @Test(expected = CarrinhoVazioExpected.class)
